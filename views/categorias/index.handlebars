@@ -1,0 +1,15 @@
+<div class="card mt-4">
+    <div class="card-body">
+        <h1>Categorias:</h1>
+
+        {{#each categorias}}
+
+            <a href="/categorias/{{slug}}"><h5>{{nome}}</h5></a>
+
+        {{else}}
+
+            <h5>Nenhuma postagem encontrada</h5>
+
+        {{/each}}
+    </div>
+</div>
